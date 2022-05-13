@@ -46,10 +46,10 @@ La base datos utilizada fue MySQL versión 8.0.28, los scripts de creación de l
 
  El frontend fue desarrollado en React.js, se encuentra aún en construcción, ya se conectó con el backend, para obtener las notas creadas y para crear una nueva nota. Todavía está pendiente las funcionalidades de editar, archivar y eliminar notas, aunque las operaciones en el backend ya fueron desarrolladas, solo falta ejecutarlas desde el frontend.
 
-##### Prerequisitos:
+### Prerequisitos:
 - instalar npm (se utilizó la versión 8.5.5)
 
-#### comandos:
+### comandos:
 - npm i -S react (instalar react)
 - npm create-react-app notes (crear una aplicación react con nombre "notes")
 - npm i bootstrap reactstrap (instala bootstrap para la creación del modal)
