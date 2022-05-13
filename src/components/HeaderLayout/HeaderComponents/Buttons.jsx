@@ -68,6 +68,8 @@ const createNote=() => {
         .then(response => response.json())
         .then(data => this.setState({ postId: data.idNote }));
 
+  alert("Note Succesfully created.");
+
 }
 
 const styleButons ={
